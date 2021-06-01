@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="db0" uuid="ed8be349-b4c8-4261-86e4-ffd30c22d674">
+      <database-info product="MySQL" version="8.0.21" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.12 (Revision: 24766725dc6e017025532146d94c6e6c488fb8f1)" dbms="MYSQL" exact-version="8.0.21" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>Ditto</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="db0" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="db1" uuid="8548e638-bf9d-4904-876f-d46be6a4cfa1">
+      <database-info product="MySQL" version="8.0.21" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.12 (Revision: 24766725dc6e017025532146d94c6e6c488fb8f1)" dbms="MYSQL" exact-version="8.0.21" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>Ditto</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="db1" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="db2" uuid="467cfc9d-dbf0-411b-813b-48a5e777f128">
+      <database-info product="MySQL" version="8.0.21" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.12 (Revision: 24766725dc6e017025532146d94c6e6c488fb8f1)" dbms="MYSQL" exact-version="8.0.21" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>Ditto</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="db2" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+  </component>
+</project>
