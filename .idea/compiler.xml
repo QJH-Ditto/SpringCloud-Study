@@ -16,6 +16,7 @@
         <module name="SpringCloud-Eureka-9003" />
         <module name="SpringCloud-Eureka-9002" />
         <module name="SpringCloud-API" />
+        <module name="SpringCloud-Provider-Hystrix-8001" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,6 +29,7 @@
       <module name="SpringCloud-Provider-8001" target="1.8" />
       <module name="SpringCloud-Provider-8002" target="1.8" />
       <module name="SpringCloud-Provider-8003" target="1.8" />
+      <module name="SpringCloud-Provider-Hystrix-8001" target="1.8" />
       <module name="SpringCloud-Study" target="1.8" />
     </bytecodeTargetLevel>
   </component>

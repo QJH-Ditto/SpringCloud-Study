@@ -19,19 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46d49d69-042d-4eac-b633-ca1e1368b474" name="Default Changelist" comment="SpringCloud-Eureka回滚">
+    <list default="true" id="46d49d69-042d-4eac-b633-ca1e1368b474" name="Default Changelist" comment="Feign测试2">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-API/SpringCloud-API.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-API/SpringCloud-API.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-API/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-API/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-7001/SpringCloud-Consumer-7001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-7001/SpringCloud-Consumer-7001.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-7001/src/main/java/com/ditto/DeptConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-7001/src/main/java/com/ditto/DeptConsumerApplication_7001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Feign-7001/SpringCloud-Consumer-Feign-7001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Feign-7001/SpringCloud-Consumer-Feign-7001.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Feign-7001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Feign-7001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Feign-7001/src/main/java/com/ditto/DeptConsumerFeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Feign-7001/src/main/java/com/ditto/DeptConsumerFeignApplication_7001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Consumer-Feign-7001/src/main/java/com/ditto/controller/DeptConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Consumer-Feign-7001/src/main/java/com/ditto/controller/DeptConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Provider-8001/SpringCloud-Provider-8001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Provider-8001/SpringCloud-Provider-8001.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Provider-8002/SpringCloud-Provider-8002.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Provider-8002/SpringCloud-Provider-8002.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Provider-8003/SpringCloud-Provider-8003.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Provider-8003/SpringCloud-Provider-8003.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-API/src/main/java/com/ditto/service/DeptClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-API/src/main/java/com/ditto/service/DeptClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +93,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="Shelf.Project.Settings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -221,7 +214,7 @@
       <workItem from="1622356057654" duration="101000" />
       <workItem from="1622420027119" duration="21591000" />
       <workItem from="1622532641970" duration="6163000" />
-      <workItem from="1622593947608" duration="5294000" />
+      <workItem from="1622593947608" duration="8867000" />
     </task>
     <task id="LOCAL-00001" summary="这是我第一次提交">
       <created>1622540629468</created>
@@ -258,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622595340979</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Feign测试2">
+      <created>1622600236648</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1622600236648</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +280,8 @@
     <MESSAGE value="模块配置文件" />
     <MESSAGE value="Feign测试" />
     <MESSAGE value="SpringCloud-Eureka回滚" />
-    <option name="LAST_COMMIT_MESSAGE" value="SpringCloud-Eureka回滚" />
+    <MESSAGE value="Feign测试2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feign测试2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="498" y="7" key="#Project_Structure" timestamp="1622338542446">
@@ -299,6 +300,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="958" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1622182867809" />
+    <state x="523" y="115" key="EnvironmentVariablesDialog" timestamp="1622617212933">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="523" y="115" key="EnvironmentVariablesDialog/0.0.1536.864@0.0.1536.864" timestamp="1622617212933" />
     <state x="467" y="129" key="FileChooserDialogImpl" timestamp="1622540360340">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -307,38 +312,38 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="579" y="351" key="Github.CreateGistDialog/0.0.1536.864@0.0.1536.864" timestamp="1622539884759" />
-    <state width="684" height="218" key="GridCell.Tab.0.bottom" timestamp="1622599364205">
+    <state width="684" height="218" key="GridCell.Tab.0.bottom" timestamp="1622600025345">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="684" height="218" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622599364205" />
-    <state width="684" height="218" key="GridCell.Tab.0.center" timestamp="1622599364205">
+    <state width="684" height="218" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622600025345" />
+    <state width="684" height="218" key="GridCell.Tab.0.center" timestamp="1622600025345">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="684" height="218" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1622599364205" />
-    <state width="684" height="218" key="GridCell.Tab.0.left" timestamp="1622599364204">
+    <state width="684" height="218" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1622600025345" />
+    <state width="684" height="218" key="GridCell.Tab.0.left" timestamp="1622600025345">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="684" height="218" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1622599364204" />
-    <state width="684" height="218" key="GridCell.Tab.0.right" timestamp="1622599364205">
+    <state width="684" height="218" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1622600025345" />
+    <state width="684" height="218" key="GridCell.Tab.0.right" timestamp="1622600025345">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="684" height="218" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1622599364205" />
-    <state width="684" height="218" key="GridCell.Tab.1.bottom" timestamp="1622599364205">
+    <state width="684" height="218" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1622600025345" />
+    <state width="684" height="218" key="GridCell.Tab.1.bottom" timestamp="1622600025346">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="684" height="218" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622599364205" />
-    <state width="684" height="218" key="GridCell.Tab.1.center" timestamp="1622599364205">
+    <state width="684" height="218" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622600025346" />
+    <state width="684" height="218" key="GridCell.Tab.1.center" timestamp="1622600025345">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="684" height="218" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1622599364205" />
-    <state width="684" height="218" key="GridCell.Tab.1.left" timestamp="1622599364205">
+    <state width="684" height="218" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1622600025345" />
+    <state width="684" height="218" key="GridCell.Tab.1.left" timestamp="1622600025345">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="684" height="218" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1622599364205" />
-    <state width="684" height="218" key="GridCell.Tab.1.right" timestamp="1622599364205">
+    <state width="684" height="218" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1622600025345" />
+    <state width="684" height="218" key="GridCell.Tab.1.right" timestamp="1622600025346">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="684" height="218" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1622599364205" />
+    <state width="684" height="218" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1622600025346" />
     <state width="678" height="279" key="GridCell.Tab.2.bottom" timestamp="1622453682836">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -363,22 +368,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="326" y="143" width="809" height="592" key="NewModule_or_Project.wizard/0.0.1536.864@0.0.1536.864" timestamp="1622341608822" />
-    <state x="167" y="14" key="SettingsEditor" timestamp="1622540158149">
+    <state x="167" y="14" key="SettingsEditor" timestamp="1622617233528">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="167" y="14" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1622540158149" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1622595347405">
+    <state x="167" y="14" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1622617233528" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1622600247491">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1622595347405" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1622600247491" />
     <state x="785" y="144" width="658" height="594" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1622171680641">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="785" y="144" width="658" height="594" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.864@0.0.1536.864" timestamp="1622171680641" />
-    <state x="163" y="119" key="new project wizard" timestamp="1622594820658">
+    <state x="163" y="119" key="new project wizard" timestamp="1622616873413">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="163" y="119" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1622594820658" />
+    <state x="163" y="119" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1622616873413" />
     <state x="814" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1622450002288">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
