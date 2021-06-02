@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46d49d69-042d-4eac-b633-ca1e1368b474" name="Default Changelist" comment="Feign测试2">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="46d49d69-042d-4eac-b633-ca1e1368b474" name="Default Changelist" comment="Hystrix测试1.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-API/src/main/java/com/ditto/service/DeptClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-API/src/main/java/com/ditto/service/DeptClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-API/src/main/java/com/ditto/pojo/Dept.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-API/src/main/java/com/ditto/pojo/Dept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Provider-Hystrix-8001/SpringCloud-Provider-Hystrix-8001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Provider-Hystrix-8001/SpringCloud-Provider-Hystrix-8001.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloud-Provider-Hystrix-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Provider-Hystrix-8001/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +81,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringCloud-Eureka-9001" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringCloud-Provider-Hystrix-8001" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -100,14 +99,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Test\Java\IJ_Java\SpringCloud-Study\SpringCloud-Study\SpringCloud-Provider-Hystrix-8001" />
       <recent name="D:\Test\Java\IJ_Java\SpringCloud-Study\SpringCloud-Study\SpringCloud-Eureka-9001" />
       <recent name="D:\Test\Java\IJ_Java\SpringCloud-Study\SpringCloud-Study\SpringCloud-Consumer-Feign-7001" />
       <recent name="D:\Test\Java\IJ_Java\SpringCloud-Study\SpringCloud-Study\SpringCloud-Provider-8003\src\main" />
       <recent name="D:\Test\Java\IJ_Java\SpringCloud-Study\SpringCloud-Study\SpringCloud-Provider-8003\src\main\resources" />
-      <recent name="D:\Test\Java\IJ_Java\SpringCloud-Study\SpringCloud-Study\SpringCloud-Provider-8002\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.DeptConsumerFeignApplication_7001">
+  <component name="RunManager" selected="Spring Boot.DeptConsumerApplication_7001">
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="SpringCloud-Study" />
       <working_directory value="$PROJECT_DIR$" />
@@ -144,19 +143,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeptProviderApplication_8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="SpringCloud-Provider-8001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ditto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ditto.DeptProviderApplication_8001" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DeptProviderApplication_8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="SpringCloud-Provider-8002" />
       <extension name="coverage">
@@ -166,6 +152,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ditto.DeptProviderApplication_8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeptProviderHystrixApplication_8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SpringCloud-Provider-Hystrix-8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ditto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ditto.DeptProviderHystrixApplication_8001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -185,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.DeptConsumerApplication_7001" />
+        <item itemvalue="Spring Boot.DeptProviderHystrixApplication_8001" />
+        <item itemvalue="Spring Boot.EurekaServiceApplication_9001" />
         <item itemvalue="Spring Boot.DeptConsumerFeignApplication_7001" />
         <item itemvalue="Spring Boot.DeptProviderApplication_8002" />
-        <item itemvalue="Spring Boot.DeptProviderApplication_8001" />
-        <item itemvalue="Spring Boot.EurekaServiceApplication_9001" />
-        <item itemvalue="Spring Boot.DeptConsumerApplication_7001" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +213,7 @@
       <workItem from="1622356057654" duration="101000" />
       <workItem from="1622420027119" duration="21591000" />
       <workItem from="1622532641970" duration="6163000" />
-      <workItem from="1622593947608" duration="8867000" />
+      <workItem from="1622593947608" duration="13843000" />
     </task>
     <task id="LOCAL-00001" summary="这是我第一次提交">
       <created>1622540629468</created>
@@ -258,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622600236648</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Hystrix测试1.0">
+      <created>1622617289370</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1622617289370</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +287,8 @@
     <MESSAGE value="Feign测试" />
     <MESSAGE value="SpringCloud-Eureka回滚" />
     <MESSAGE value="Feign测试2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feign测试2" />
+    <MESSAGE value="Hystrix测试1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hystrix测试1.0" />
   </component>
   <component name="WindowStateProjectService">
     <state x="498" y="7" key="#Project_Structure" timestamp="1622338542446">
@@ -312,38 +319,38 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="579" y="351" key="Github.CreateGistDialog/0.0.1536.864@0.0.1536.864" timestamp="1622539884759" />
-    <state width="684" height="218" key="GridCell.Tab.0.bottom" timestamp="1622600025345">
+    <state width="684" height="219" key="GridCell.Tab.0.bottom" timestamp="1622623782353">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="684" height="218" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622600025345" />
-    <state width="684" height="218" key="GridCell.Tab.0.center" timestamp="1622600025345">
+    <state width="684" height="219" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622623782353" />
+    <state width="684" height="219" key="GridCell.Tab.0.center" timestamp="1622623782353">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="684" height="218" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1622600025345" />
-    <state width="684" height="218" key="GridCell.Tab.0.left" timestamp="1622600025345">
+    <state width="684" height="219" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1622623782353" />
+    <state width="684" height="219" key="GridCell.Tab.0.left" timestamp="1622623782353">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="684" height="218" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1622600025345" />
-    <state width="684" height="218" key="GridCell.Tab.0.right" timestamp="1622600025345">
+    <state width="684" height="219" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1622623782353" />
+    <state width="684" height="219" key="GridCell.Tab.0.right" timestamp="1622623782353">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="684" height="218" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1622600025345" />
-    <state width="684" height="218" key="GridCell.Tab.1.bottom" timestamp="1622600025346">
+    <state width="684" height="219" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1622623782353" />
+    <state width="684" height="219" key="GridCell.Tab.1.bottom" timestamp="1622623782354">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="684" height="218" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622600025346" />
-    <state width="684" height="218" key="GridCell.Tab.1.center" timestamp="1622600025345">
+    <state width="684" height="219" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622623782354" />
+    <state width="684" height="219" key="GridCell.Tab.1.center" timestamp="1622623782354">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="684" height="218" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1622600025345" />
-    <state width="684" height="218" key="GridCell.Tab.1.left" timestamp="1622600025345">
+    <state width="684" height="219" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1622623782354" />
+    <state width="684" height="219" key="GridCell.Tab.1.left" timestamp="1622623782354">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="684" height="218" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1622600025345" />
-    <state width="684" height="218" key="GridCell.Tab.1.right" timestamp="1622600025346">
+    <state width="684" height="219" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1622623782354" />
+    <state width="684" height="219" key="GridCell.Tab.1.right" timestamp="1622623782354">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="684" height="218" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1622600025346" />
+    <state width="684" height="219" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1622623782354" />
     <state width="678" height="279" key="GridCell.Tab.2.bottom" timestamp="1622453682836">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -372,10 +379,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="167" y="14" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1622617233528" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1622600247491">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1622617345393">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1622600247491" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1622617345393" />
     <state x="785" y="144" width="658" height="594" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1622171680641">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -384,10 +391,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="163" y="119" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1622616873413" />
-    <state x="814" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1622450002288">
+    <state x="814" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1622619525689">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="814" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1622450002288" />
+    <state x="814" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1622619525689" />
     <state x="517" y="329" key="svn.passwordDialog" timestamp="1622540341528">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
