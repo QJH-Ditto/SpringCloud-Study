@@ -25,6 +25,8 @@ eureka:
   instance:
     instance-id: SpringCloud-Provider-dept8001
     hostname: localhost
+    #默认false隐藏IP
+    prefer-ip-address: true
 
 info:
   app:
