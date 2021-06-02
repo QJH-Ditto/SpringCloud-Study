@@ -16,8 +16,8 @@ import org.springframework.cloud.netflix.ribbon.RibbonClient;
 @EnableEurekaClient
 //自定义服务类以及负载均衡算法
 @RibbonClient(name = "SpringCloud-Provider-dept",configuration = DittoRule.class)
-public class DeptConsumerFeignApplication {
+public class DeptConsumerApplication_7001 {
     public static void main(String[] args) {
-        SpringApplication.run(DeptConsumerFeignApplication.class,args);
+        SpringApplication.run(DeptConsumerApplication_7001.class,args);
     }
 }

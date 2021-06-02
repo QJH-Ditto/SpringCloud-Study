@@ -6,18 +6,16 @@
  */
 package com.ditto;
 
-import com.ditto.myRule.DittoRule;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.netflix.ribbon.RibbonClient;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.ditto")
 @EnableEurekaClient
-//自定义服务类以及负载均衡算法
-@RibbonClient(name = "SpringCloud-Provider-dept",configuration = DittoRule.class)
-public class DeptConsumerApplication {
+@EnableFeignClients(basePackages = {"com.ditto"})
+public class DeptConsumerFeignApplication_7001 {
     public static void main(String[] args) {
-        SpringApplication.run(DeptConsumerApplication.class,args);
+        SpringApplication.run(DeptConsumerFeignApplication_7001.class,args);
     }
 }
