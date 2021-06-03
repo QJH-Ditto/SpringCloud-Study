@@ -16,13 +16,18 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46d49d69-042d-4eac-b633-ca1e1368b474" name="Default Changelist" comment="Hystrix测试 熔断：备选方法">
+    <list default="true" id="46d49d69-042d-4eac-b633-ca1e1368b474" name="Default Changelist" comment="Hystrix测试 无熔断捕获异常">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Provider-8001/src/main/java/com/ditto/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Provider-8001/src/main/java/com/ditto/controller/DeptController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud-Provider-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloud-Provider-8001/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +217,8 @@
       <workItem from="1622356057654" duration="101000" />
       <workItem from="1622420027119" duration="21591000" />
       <workItem from="1622532641970" duration="6163000" />
-      <workItem from="1622593947608" duration="15378000" />
+      <workItem from="1622593947608" duration="15641000" />
+      <workItem from="1622679865442" duration="3072000" />
     </task>
     <task id="LOCAL-00001" summary="这是我第一次提交">
       <created>1622540629468</created>
@@ -270,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622624596957</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Hystrix测试 无熔断捕获异常">
+      <created>1622625995690</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1622625995690</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,11 +294,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="这是我第一次提交" />
@@ -295,7 +321,8 @@
     <MESSAGE value="Feign测试2" />
     <MESSAGE value="Hystrix测试1.0" />
     <MESSAGE value="Hystrix测试 熔断：备选方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hystrix测试 熔断：备选方法" />
+    <MESSAGE value="Hystrix测试 无熔断捕获异常" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hystrix测试 无熔断捕获异常" />
   </component>
   <component name="WindowStateProjectService">
     <state x="498" y="7" key="#Project_Structure" timestamp="1622338542446">
@@ -310,10 +337,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="924" y="271" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1536.864@0.0.1536.864" timestamp="1622181053927" />
-    <state x="958" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1622182867809">
+    <state x="958" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1622684492576">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="958" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1622182867809" />
+    <state x="958" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1622684492576" />
     <state x="937" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1622624914728">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -330,54 +357,54 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="579" y="351" key="Github.CreateGistDialog/0.0.1536.864@0.0.1536.864" timestamp="1622539884759" />
-    <state width="684" height="219" key="GridCell.Tab.0.bottom" timestamp="1622625574106">
+    <state width="684" height="276" key="GridCell.Tab.0.bottom" timestamp="1622626033905">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="684" height="219" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622625574106" />
-    <state width="684" height="219" key="GridCell.Tab.0.center" timestamp="1622625574106">
+    <state width="684" height="276" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622626033905" />
+    <state width="684" height="276" key="GridCell.Tab.0.center" timestamp="1622626033905">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="684" height="219" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1622625574106" />
-    <state width="684" height="219" key="GridCell.Tab.0.left" timestamp="1622625574105">
+    <state width="684" height="276" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1622626033905" />
+    <state width="684" height="276" key="GridCell.Tab.0.left" timestamp="1622626033904">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="684" height="219" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1622625574105" />
-    <state width="684" height="219" key="GridCell.Tab.0.right" timestamp="1622625574106">
+    <state width="684" height="276" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1622626033904" />
+    <state width="684" height="276" key="GridCell.Tab.0.right" timestamp="1622626033905">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="684" height="219" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1622625574106" />
-    <state width="684" height="219" key="GridCell.Tab.1.bottom" timestamp="1622625574106">
+    <state width="684" height="276" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1622626033905" />
+    <state width="684" height="276" key="GridCell.Tab.1.bottom" timestamp="1622626033905">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="684" height="219" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622625574106" />
-    <state width="684" height="219" key="GridCell.Tab.1.center" timestamp="1622625574106">
+    <state width="684" height="276" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622626033905" />
+    <state width="684" height="276" key="GridCell.Tab.1.center" timestamp="1622626033905">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="684" height="219" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1622625574106" />
-    <state width="684" height="219" key="GridCell.Tab.1.left" timestamp="1622625574106">
+    <state width="684" height="276" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1622626033905" />
+    <state width="684" height="276" key="GridCell.Tab.1.left" timestamp="1622626033905">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="684" height="219" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1622625574106" />
-    <state width="684" height="219" key="GridCell.Tab.1.right" timestamp="1622625574106">
+    <state width="684" height="276" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1622626033905" />
+    <state width="684" height="276" key="GridCell.Tab.1.right" timestamp="1622626033905">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="684" height="219" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1622625574106" />
-    <state width="684" height="276" key="GridCell.Tab.2.bottom" timestamp="1622625410535">
+    <state width="684" height="276" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1622626033905" />
+    <state width="684" height="276" key="GridCell.Tab.2.bottom" timestamp="1622626033905">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="684" height="276" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622625410535" />
-    <state width="684" height="276" key="GridCell.Tab.2.center" timestamp="1622625410535">
+    <state width="684" height="276" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622626033905" />
+    <state width="684" height="276" key="GridCell.Tab.2.center" timestamp="1622626033905">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="684" height="276" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1622625410535" />
-    <state width="684" height="276" key="GridCell.Tab.2.left" timestamp="1622625410535">
+    <state width="684" height="276" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1622626033905" />
+    <state width="684" height="276" key="GridCell.Tab.2.left" timestamp="1622626033905">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="684" height="276" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1622625410535" />
-    <state width="684" height="276" key="GridCell.Tab.2.right" timestamp="1622625410535">
+    <state width="684" height="276" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1622626033905" />
+    <state width="684" height="276" key="GridCell.Tab.2.right" timestamp="1622626033905">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="684" height="276" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1622625410535" />
+    <state width="684" height="276" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1622626033905" />
     <state x="598" y="90" key="Maven.ArtifactSearchDialog" timestamp="1622423022813">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -390,10 +417,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="167" y="14" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1622617233528" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1622624642813">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1622626016576">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1622624642813" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1622626016576" />
     <state x="785" y="144" width="658" height="594" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1622171680641">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
