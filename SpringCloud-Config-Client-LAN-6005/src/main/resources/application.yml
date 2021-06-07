@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: springcloud-config-lan-client-6005

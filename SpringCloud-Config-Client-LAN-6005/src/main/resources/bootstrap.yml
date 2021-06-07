@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: config-client #需要从Git上获取的资源的名称，不需要后缀
+      profile: client
+      label: git
+      uri: http://localhost:6002

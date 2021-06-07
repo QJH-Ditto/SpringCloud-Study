@@ -1,19 +1,17 @@
 /**
  * @Description
  * @Author
- * @Date 2021/06/07 10:09:15
+ * @Date 2021/06/07 14:03:20
  * @Version
  */
 package com.ditto;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
-@EnableConfigServer
-public class ConfigServerLANApplication6002 {
+public class ConfigClientLANApplication_6005 {
     public static void main(String[] args) {
-        SpringApplication.run(ConfigServerLANApplication6002.class,args);
+        SpringApplication.run(ConfigClientLANApplication_6005.class,args);
     }
 }

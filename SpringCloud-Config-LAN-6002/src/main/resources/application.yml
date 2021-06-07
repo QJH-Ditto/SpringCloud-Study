@@ -9,11 +9,5 @@ spring:
           username: jhly0@outlook.com
           password: 7jh1353148688
 
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:9001/eureka/
-
 server:
   port: 6002

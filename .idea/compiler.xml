@@ -15,6 +15,7 @@
         <module name="SpringCloud-Provider-8003" />
         <module name="SpringCloud-Provider-8002" />
         <module name="SpringCloud-Provider-8001" />
+        <module name="SpringCloud-Config-Client-LAN-6005" />
         <module name="SpringCloud-Config-LAN-6002" />
         <module name="SpringCloud-API" />
         <module name="SpringCloud-Provider-Hystrix-8001" />
@@ -22,11 +23,14 @@
         <module name="SpringCloud-Config-LAN" />
         <module name="SpringCloud-Consumer-7001" />
         <module name="SpringCloud-Zuul-8004" />
+        <module name="SpringCloud-Config-Client-6003" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="SpringCloud-API" target="1.8" />
       <module name="SpringCloud-Config-6001" target="1.8" />
+      <module name="SpringCloud-Config-Client-6003" target="1.8" />
+      <module name="SpringCloud-Config-Client-LAN-6005" target="1.8" />
       <module name="SpringCloud-Config-LAN" target="1.8" />
       <module name="SpringCloud-Config-LAN-6002" target="1.8" />
       <module name="SpringCloud-Consumer-7001" target="1.8" />
