@@ -21,17 +21,13 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/git" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46d49d69-042d-4eac-b633-ca1e1368b474" name="Default Changelist" comment="Git客户端获取线上配置(Gitee仓库、局域网Git服务器)">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="46d49d69-042d-4eac-b633-ca1e1368b474" name="Default Changelist" comment="Eureka、生产者集中获取线上配置(Gitee仓库)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +228,7 @@
       <workItem from="1622593947608" duration="15641000" />
       <workItem from="1622679865442" duration="16028000" />
       <workItem from="1622767029758" duration="13169000" />
-      <workItem from="1623025308997" duration="19883000" />
+      <workItem from="1623025308997" duration="22019000" />
     </task>
     <task id="LOCAL-00001" summary="这是我第一次提交">
       <created>1622540629468</created>
@@ -332,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623049217417</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Eureka、生产者集中获取线上配置(Gitee仓库)">
+      <created>1623052579739</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1623052579739</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +352,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="origin/git" />
                       </list>
                     </value>
                   </entry>
@@ -375,7 +378,8 @@
     <MESSAGE value="服务降级配置" />
     <MESSAGE value="Git连接测试" />
     <MESSAGE value="Git客户端获取线上配置(Gitee仓库、局域网Git服务器)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Git客户端获取线上配置(Gitee仓库、局域网Git服务器)" />
+    <MESSAGE value="Eureka、生产者集中获取线上配置(Gitee仓库)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eureka、生产者集中获取线上配置(Gitee仓库)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="498" y="7" key="#Project_Structure" timestamp="1622338542446">
@@ -410,38 +414,38 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="579" y="351" key="Github.CreateGistDialog/0.0.1536.864@0.0.1536.864" timestamp="1622539884759" />
-    <state width="672" height="220" key="GridCell.Tab.0.bottom" timestamp="1623052084846">
+    <state width="672" height="220" key="GridCell.Tab.0.bottom" timestamp="1623053925549">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="672" height="220" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1623052084846" />
-    <state width="672" height="220" key="GridCell.Tab.0.center" timestamp="1623052084846">
+    <state width="672" height="220" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1623053925549" />
+    <state width="672" height="220" key="GridCell.Tab.0.center" timestamp="1623053925549">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="672" height="220" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1623052084846" />
-    <state width="672" height="220" key="GridCell.Tab.0.left" timestamp="1623052084846">
+    <state width="672" height="220" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1623053925549" />
+    <state width="672" height="220" key="GridCell.Tab.0.left" timestamp="1623053925549">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="672" height="220" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1623052084846" />
-    <state width="672" height="220" key="GridCell.Tab.0.right" timestamp="1623052084846">
+    <state width="672" height="220" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1623053925549" />
+    <state width="672" height="220" key="GridCell.Tab.0.right" timestamp="1623053925549">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="672" height="220" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1623052084846" />
-    <state width="672" height="220" key="GridCell.Tab.1.bottom" timestamp="1623052084847">
+    <state width="672" height="220" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1623053925549" />
+    <state width="672" height="220" key="GridCell.Tab.1.bottom" timestamp="1623053925549">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="672" height="220" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1623052084847" />
-    <state width="672" height="220" key="GridCell.Tab.1.center" timestamp="1623052084847">
+    <state width="672" height="220" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1623053925549" />
+    <state width="672" height="220" key="GridCell.Tab.1.center" timestamp="1623053925549">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="672" height="220" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1623052084847" />
-    <state width="672" height="220" key="GridCell.Tab.1.left" timestamp="1623052084846">
+    <state width="672" height="220" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1623053925549" />
+    <state width="672" height="220" key="GridCell.Tab.1.left" timestamp="1623053925549">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="672" height="220" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1623052084846" />
-    <state width="672" height="220" key="GridCell.Tab.1.right" timestamp="1623052084847">
+    <state width="672" height="220" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1623053925549" />
+    <state width="672" height="220" key="GridCell.Tab.1.right" timestamp="1623053925549">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="672" height="220" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1623052084847" />
+    <state width="672" height="220" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1623053925549" />
     <state width="684" height="276" key="GridCell.Tab.2.bottom" timestamp="1622626033905">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -470,10 +474,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="460" y="14" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1623032510635" />
-    <state x="509" y="170" key="Vcs.Push.Dialog.v2" timestamp="1623049350085">
+    <state x="509" y="170" key="Vcs.Push.Dialog.v2" timestamp="1623052583990">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="509" y="170" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1623049350085" />
+    <state x="509" y="170" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1623052583990" />
     <state x="785" y="144" width="658" height="594" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1622171680641">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
