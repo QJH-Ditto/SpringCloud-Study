@@ -1,0 +1,30 @@
+server:
+  port: 8004
+
+spring:
+  application:
+    name: springcloud-zuul
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka9001.com:9001/eureka/,http://eureka9002.com:9002/eureka/,http://eureka9003.com:9003/eureka/
+
+  instance:
+    instance-id: zuul-8004.com
+    prefer-ip-address: true
+
+info:
+  app.name: Ditto-SpringCloud
+  company.name: Blog.Ditto.com
+
+
+#域名伪装，通过自定义域名和服务名访问服务
+zuul:
+  routes:
+    mydept.serviceId: springcloud-provider-dept
+    mydept.path: /mydept/**
+    #配置不可通过原服务名访问("*"隐藏全部服务)
+  ignored-services: springcloud-provider-dept
+  #设置公共访问前缀，所有访问必须通过此前缀
+  prefix: /ditto

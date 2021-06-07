@@ -9,7 +9,6 @@ package com.ditto.service;
 import com.ditto.pojo.Dept;
 import feign.hystrix.FallbackFactory;
 import org.springframework.stereotype.Component;
-
 import java.util.List;
 
 //服务降级

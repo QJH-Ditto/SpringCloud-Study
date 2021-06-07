@@ -7,22 +7,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SpringCloud-Consumer-7001" />
-        <module name="SpringCloud-Consumer-Feign-7001" />
+        <module name="SpringCloud-Eureka-9003" />
+        <module name="SpringCloud-Eureka-9002" />
+        <module name="SpringCloud-Eureka-9001" />
+        <module name="SpringCloud-Consumer-Hystrix-DashBoard" />
+        <module name="SpringCloud-Config-6001" />
         <module name="SpringCloud-Provider-8003" />
         <module name="SpringCloud-Provider-8002" />
         <module name="SpringCloud-Provider-8001" />
-        <module name="SpringCloud-Eureka-9001" />
-        <module name="SpringCloud-Eureka-9003" />
-        <module name="SpringCloud-Eureka-9002" />
+        <module name="SpringCloud-Config-LAN-6002" />
         <module name="SpringCloud-API" />
         <module name="SpringCloud-Provider-Hystrix-8001" />
+        <module name="SpringCloud-Consumer-Feign-7001" />
+        <module name="SpringCloud-Config-LAN" />
+        <module name="SpringCloud-Consumer-7001" />
+        <module name="SpringCloud-Zuul-8004" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8">
       <module name="SpringCloud-API" target="1.8" />
+      <module name="SpringCloud-Config-6001" target="1.8" />
+      <module name="SpringCloud-Config-LAN" target="1.8" />
+      <module name="SpringCloud-Config-LAN-6002" target="1.8" />
       <module name="SpringCloud-Consumer-7001" target="1.8" />
       <module name="SpringCloud-Consumer-Feign-7001" target="1.8" />
+      <module name="SpringCloud-Consumer-Hystrix-DashBoard" target="1.8" />
       <module name="SpringCloud-Eureka-9001" target="1.8" />
       <module name="SpringCloud-Eureka-9002" target="1.8" />
       <module name="SpringCloud-Eureka-9003" target="1.8" />
@@ -31,6 +40,7 @@
       <module name="SpringCloud-Provider-8003" target="1.8" />
       <module name="SpringCloud-Provider-Hystrix-8001" target="1.8" />
       <module name="SpringCloud-Study" target="1.8" />
+      <module name="SpringCloud-Zuul-8004" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

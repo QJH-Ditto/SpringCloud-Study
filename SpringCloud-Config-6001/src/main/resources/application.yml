@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: springcloud-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/ditto-qjh/springcloud-config
+          username: Ditto-QJH
+          password: 7jh1353148688
+  #          basedir: /Users/admin/code/myProjects/java/imooc/SpringCloud_Sell/config/basedir
+
+
+server:
+  port: 6001

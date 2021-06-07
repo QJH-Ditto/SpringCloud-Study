@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-API/SpringCloud-API.iml" filepath="$PROJECT_DIR$/SpringCloud-API/SpringCloud-API.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud-Config-6001/SpringCloud-Config-6001.iml" filepath="$PROJECT_DIR$/SpringCloud-Config-6001/SpringCloud-Config-6001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud-Config-LAN-6002/SpringCloud-Config-LAN-6002.iml" filepath="$PROJECT_DIR$/SpringCloud-Config-LAN-6002/SpringCloud-Config-LAN-6002.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Consumer-7001/SpringCloud-Consumer-7001.iml" filepath="$PROJECT_DIR$/SpringCloud-Consumer-7001/SpringCloud-Consumer-7001.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Consumer-Feign-7001/SpringCloud-Consumer-Feign-7001.iml" filepath="$PROJECT_DIR$/SpringCloud-Consumer-Feign-7001/SpringCloud-Consumer-Feign-7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud-Consumer-Hystrix-DashBoard/SpringCloud-Consumer-Hystrix-DashBoard.iml" filepath="$PROJECT_DIR$/SpringCloud-Consumer-Hystrix-DashBoard/SpringCloud-Consumer-Hystrix-DashBoard.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Eureka-9001/SpringCloud-Eureka-9001.iml" filepath="$PROJECT_DIR$/SpringCloud-Eureka-9001/SpringCloud-Eureka-9001.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Eureka-9002/SpringCloud-Eureka-9002.iml" filepath="$PROJECT_DIR$/SpringCloud-Eureka-9002/SpringCloud-Eureka-9002.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Eureka-9003/SpringCloud-Eureka-9003.iml" filepath="$PROJECT_DIR$/SpringCloud-Eureka-9003/SpringCloud-Eureka-9003.iml" />
@@ -13,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Provider-8003/SpringCloud-Provider-8003.iml" filepath="$PROJECT_DIR$/SpringCloud-Provider-8003/SpringCloud-Provider-8003.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Provider-Hystrix-8001/SpringCloud-Provider-Hystrix-8001.iml" filepath="$PROJECT_DIR$/SpringCloud-Provider-Hystrix-8001/SpringCloud-Provider-Hystrix-8001.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringCloud-Study.iml" filepath="$PROJECT_DIR$/.idea/SpringCloud-Study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud-Zuul-8004/SpringCloud-Zuul-8004.iml" filepath="$PROJECT_DIR$/SpringCloud-Zuul-8004/SpringCloud-Zuul-8004.iml" />
     </modules>
   </component>
 </project>
