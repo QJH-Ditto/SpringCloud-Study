@@ -24,6 +24,8 @@
 		<module>SpringCloud-Config-LAN-6002</module>
 		<module>SpringCloud-Config-Client-6003</module>
 		<module>SpringCloud-Config-Client-LAN-6005</module>
+		<module>SpringCloud-Config-Eureka-9001</module>
+		<module>SpringCloud-Config-Provider-Dept-8001</module>
 	</modules>
 	
 	<packaging>pom</packaging>

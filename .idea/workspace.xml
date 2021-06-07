@@ -26,7 +26,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46d49d69-042d-4eac-b633-ca1e1368b474" name="Default Changelist" comment="Git客户端获取线上配置(Gitee仓库、局域网Git服务器)" />
+    <list default="true" id="46d49d69-042d-4eac-b633-ca1e1368b474" name="Default Changelist" comment="Git客户端获取线上配置(Gitee仓库、局域网Git服务器)">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,8 +45,8 @@
         <option value="Mybatis-config" />
         <option value="Interface" />
         <option value="Mapper File" />
-        <option value="Yml File" />
         <option value="Class" />
+        <option value="Yml File" />
       </list>
     </option>
   </component>
@@ -83,7 +89,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringCloud-Config-Client-LAN-6005" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringCloud-Config-Provider-Dept-8001" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -104,14 +110,14 @@
       <recent name="com.ditto.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Test\Java\IJ_Java\SpringCloud-Study\SpringCloud-Study\SpringCloud-Config-Provider-Dept-8001" />
+      <recent name="D:\Test\Java\IJ_Java\SpringCloud-Study\SpringCloud-Study\SpringCloud-Config-Eureka-9001" />
       <recent name="D:\Test\Java\IJ_Java\SpringCloud-Study\SpringCloud-Study\SpringCloud-Config-Client-LAN-6005" />
       <recent name="D:\Test\Java\IJ_Java\SpringCloud-Study\SpringCloud-Study\SpringCloud-Config-Client-LAN-6005\src" />
       <recent name="D:\Test\Java\IJ_Java\SpringCloud-Study\SpringCloud-Study\SpringCloud-Provider-Hystrix-8001" />
-      <recent name="D:\Test\Java\IJ_Java\SpringCloud-Study\SpringCloud-Study\SpringCloud-Eureka-9001" />
-      <recent name="D:\Test\Java\IJ_Java\SpringCloud-Study\SpringCloud-Study\SpringCloud-Consumer-Feign-7001" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigClientLANApplication_6005">
+  <component name="RunManager" selected="Spring Boot.DeptProviderConfigApplication_8001">
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="SpringCloud-Study" />
       <working_directory value="$PROJECT_DIR$" />
@@ -121,19 +127,6 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
-    </configuration>
-    <configuration name="ConfigClientApplication_6003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="SpringCloud-Config-Client-6003" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ditto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ditto.ConfigClientApplication_6003" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="ConfigClientLANApplication_6005" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="SpringCloud-Config-Client-LAN-6005" />
@@ -174,26 +167,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServiceApplication_9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="SpringCloud-Eureka-9001" />
+    <configuration name="DeptProviderConfigApplication_8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SpringCloud-Config-Provider-Dept-8001" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ditto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ditto.EurekaServiceApplication_9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ditto.DeptProviderConfigApplication_8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServiceConfigApplication_9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SpringCloud-Config-Eureka-9001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ditto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ditto.EurekaServiceConfigApplication_9001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.DeptProviderConfigApplication_8001" />
+        <item itemvalue="Spring Boot.EurekaServiceConfigApplication_9001" />
+        <item itemvalue="Spring Boot.ConfigServerGiteeApplication6001" />
         <item itemvalue="Spring Boot.ConfigClientLANApplication_6005" />
         <item itemvalue="Spring Boot.ConfigServerLANApplication6002" />
-        <item itemvalue="Spring Boot.ConfigClientApplication_6003" />
-        <item itemvalue="Spring Boot.ConfigServerGiteeApplication6001" />
-        <item itemvalue="Spring Boot.EurekaServiceApplication_9001" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +232,7 @@
       <workItem from="1622593947608" duration="15641000" />
       <workItem from="1622679865442" duration="16028000" />
       <workItem from="1622767029758" duration="13169000" />
-      <workItem from="1623025308997" duration="16697000" />
+      <workItem from="1623025308997" duration="19883000" />
     </task>
     <task id="LOCAL-00001" summary="这是我第一次提交">
       <created>1622540629468</created>
@@ -319,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623049134592</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Git客户端获取线上配置(Gitee仓库、局域网Git服务器)">
+      <created>1623049217417</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1623049217417</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,38 +410,38 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="579" y="351" key="Github.CreateGistDialog/0.0.1536.864@0.0.1536.864" timestamp="1622539884759" />
-    <state width="672" height="220" key="GridCell.Tab.0.bottom" timestamp="1623048997954">
+    <state width="672" height="220" key="GridCell.Tab.0.bottom" timestamp="1623052084846">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="672" height="220" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1623048997954" />
-    <state width="672" height="220" key="GridCell.Tab.0.center" timestamp="1623048997954">
+    <state width="672" height="220" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1623052084846" />
+    <state width="672" height="220" key="GridCell.Tab.0.center" timestamp="1623052084846">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="672" height="220" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1623048997954" />
-    <state width="672" height="220" key="GridCell.Tab.0.left" timestamp="1623048997954">
+    <state width="672" height="220" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1623052084846" />
+    <state width="672" height="220" key="GridCell.Tab.0.left" timestamp="1623052084846">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="672" height="220" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1623048997954" />
-    <state width="672" height="220" key="GridCell.Tab.0.right" timestamp="1623048997954">
+    <state width="672" height="220" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1623052084846" />
+    <state width="672" height="220" key="GridCell.Tab.0.right" timestamp="1623052084846">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="672" height="220" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1623048997954" />
-    <state width="672" height="220" key="GridCell.Tab.1.bottom" timestamp="1623048997955">
+    <state width="672" height="220" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1623052084846" />
+    <state width="672" height="220" key="GridCell.Tab.1.bottom" timestamp="1623052084847">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="672" height="220" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1623048997955" />
-    <state width="672" height="220" key="GridCell.Tab.1.center" timestamp="1623048997954">
+    <state width="672" height="220" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1623052084847" />
+    <state width="672" height="220" key="GridCell.Tab.1.center" timestamp="1623052084847">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="672" height="220" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1623048997954" />
-    <state width="672" height="220" key="GridCell.Tab.1.left" timestamp="1623048997954">
+    <state width="672" height="220" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1623052084847" />
+    <state width="672" height="220" key="GridCell.Tab.1.left" timestamp="1623052084846">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="672" height="220" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1623048997954" />
-    <state width="672" height="220" key="GridCell.Tab.1.right" timestamp="1623048997955">
+    <state width="672" height="220" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1623052084846" />
+    <state width="672" height="220" key="GridCell.Tab.1.right" timestamp="1623052084847">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="672" height="220" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1623048997955" />
+    <state width="672" height="220" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1623052084847" />
     <state width="684" height="276" key="GridCell.Tab.2.bottom" timestamp="1622626033905">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -457,18 +470,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="460" y="14" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1623032510635" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1623049150285">
+    <state x="509" y="170" key="Vcs.Push.Dialog.v2" timestamp="1623049350085">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1623049150285" />
+    <state x="509" y="170" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1623049350085" />
     <state x="785" y="144" width="658" height="594" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1622171680641">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="785" y="144" width="658" height="594" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.864@0.0.1536.864" timestamp="1622171680641" />
-    <state x="356" y="186" key="new project wizard" timestamp="1623047842029">
+    <state x="972" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623049294631">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="356" y="186" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1623047842029" />
+    <state x="972" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1623049294631" />
+    <state x="218" y="132" key="new project wizard" timestamp="1623051549918">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="218" y="132" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1623051549918" />
     <state x="814" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1622619525689">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

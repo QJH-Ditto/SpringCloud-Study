@@ -6,7 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Config-6001/SpringCloud-Config-6001.iml" filepath="$PROJECT_DIR$/SpringCloud-Config-6001/SpringCloud-Config-6001.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Config-Client-6003/SpringCloud-Config-Client-6003.iml" filepath="$PROJECT_DIR$/SpringCloud-Config-Client-6003/SpringCloud-Config-Client-6003.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Config-Client-LAN-6005/SpringCloud-Config-Client-LAN-6005.iml" filepath="$PROJECT_DIR$/SpringCloud-Config-Client-LAN-6005/SpringCloud-Config-Client-LAN-6005.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud-Config-Eureka-9001/SpringCloud-Config-Eureka-9001.iml" filepath="$PROJECT_DIR$/SpringCloud-Config-Eureka-9001/SpringCloud-Config-Eureka-9001.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Config-LAN-6002/SpringCloud-Config-LAN-6002.iml" filepath="$PROJECT_DIR$/SpringCloud-Config-LAN-6002/SpringCloud-Config-LAN-6002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud-Config-Provider-Dept-8001/SpringCloud-Config-Provider-Dept-8001.iml" filepath="$PROJECT_DIR$/SpringCloud-Config-Provider-Dept-8001/SpringCloud-Config-Provider-Dept-8001.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Consumer-7001/SpringCloud-Consumer-7001.iml" filepath="$PROJECT_DIR$/SpringCloud-Consumer-7001/SpringCloud-Consumer-7001.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Consumer-Feign-7001/SpringCloud-Consumer-Feign-7001.iml" filepath="$PROJECT_DIR$/SpringCloud-Consumer-Feign-7001/SpringCloud-Consumer-Feign-7001.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud-Consumer-Hystrix-DashBoard/SpringCloud-Consumer-Hystrix-DashBoard.iml" filepath="$PROJECT_DIR$/SpringCloud-Consumer-Hystrix-DashBoard/SpringCloud-Consumer-Hystrix-DashBoard.iml" />
